@@ -231,12 +231,12 @@ button:hover{
     nav{
         height: auto;
     }
-    .bgcolor{
+    /* .bgcolor{
         width: 110%;
     }
     .shapedividers_com-9096{
         width: 110%;
-    }
+    } */
 
     
 }
@@ -499,5 +499,99 @@ img:hover{
     .menubtn button{
         width: 30%;
      }
+    
+}
+/* section 4*/
+
+.box1{
+    height: auto;
+    width: 600px;
+    background-color: black;
+    text-align: center;
+}
+.bxtext{
+    padding: 10%;
+}
+.box1 p i{
+    color: orange;
+    font-size: 4rcap;
+}
+.box1 #p10{
+    color: white;
+    margin: 10% 0%;
+
+    line-height: 45px;
+    text-transform: capitalize;
+    font-size: 2rcap;
+}
+.bxtext h3 i{
+    font-size: 1rcap;
+
+    
+
+}
+.bxtext h3{
+    font-size: 2rcap;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+
+.bxtext h3,i{
+    color: rgba(255, 255, 255, 0.794);
+
+}
+.boxx{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box2{
+    background: url(./image/testimonials.png) no-repeat center ;
+    height: 500px;
+    width: 740px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: opacity(80%);
+}
+
+.icon {
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    transition: background-color ease-in-out 0.3s;
+
+}
+.icon:hover{
+    background-color: black;
+
+    
+}
+.icon:hover:active{
+    background-color: orange;
+}
+.icon a{
+    margin-top: 35%;
+}
+.icon a i{
+    color: orange;
+    font-size: 2rcap;
+    transition:  transform ease-in-out 0.8s;
+
+
+}
+.icon:hover a i{
+    color: white;
+    transform: rotate(360deg);
+}
+@media screen and (max-width:800px) {
+
+    .box1 #p10{
+        font-size: 1.6rcap;
+    }
     
 }
