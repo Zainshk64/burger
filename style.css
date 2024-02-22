@@ -31,6 +31,7 @@
     .shapedividers_com-9096::before{
     background-size: 118% calc(2vw + 67px);
     }
+ 
     }
      
 .bgcolor{
@@ -191,7 +192,7 @@ button:hover{
         width: 100%;
     }
     .main{
-        margin-top: 25%;
+        margin-top: 35%;
     }
     .text1{
         width: 100%;
@@ -212,6 +213,8 @@ button:hover{
     }
     .main .text1{
         margin-left: 10px;
+        margin-top: 10%;
+
     }
     .main .text1 h2{
         height: 50px;
@@ -227,6 +230,12 @@ button:hover{
     }
     nav{
         height: auto;
+    }
+    .bgcolor{
+        width: 110%;
+    }
+    .shapedividers_com-9096{
+        width: 110%;
     }
 
     
