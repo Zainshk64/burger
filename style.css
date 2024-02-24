@@ -152,6 +152,7 @@ h2 p{
     font-size: 5rcap;
     /* width: 70%; */
     text-transform: uppercase;
+    color: white;
     text-shadow: 6px -5px 7px rgba(238,195,1,1);
 }
 button{
@@ -288,7 +289,11 @@ button:hover{
 @media screen and (max-width:800px) {
     .in1{
         transform: scale(1.5);
-        width: 200px;
+        width: 180px;
+        margin-left: -10px;
+    }
+    #text1 .h1{
+        font-size: 3rcap;
     }
     #text1{
         width: 100%;
@@ -297,6 +302,12 @@ button:hover{
         margin-top: 5%;
         width: 90%;
     
+    }
+    .in2 .p1{
+        font-size: 1.2rcap;
+    }
+    .in2 ul li{
+        font-size: 1.2rcap;
     }
     
 }
@@ -592,6 +603,347 @@ img:hover{
 
     .box1 #p10{
         font-size: 1.6rcap;
+    }
+    .box1{
+        width: 100%;
+        margin: 0;
+    }
+    .box2 {
+        width: 100%;
+    }
+
+   
+    
+   
+}
+.center{
+    text-align: center;
+}
+.center h2{
+    width: 15%;
+    margin: auto;
+
+}
+.center h2 p{
+    color: white;
+}
+
+.center a,h1{
+    color: black;
+
+}
+.center a{
+    text-decoration: none;
+    
+    
+}
+.center a h1{
+    background: url(./image/th.jpg) no-repeat;
+    background-clip:content-box;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-position: bottom;
+    color: transparent;
+     font-size: 4rcap;
+     margin: 3% 0;
+     transition: background-position ease-in-out 0.2s ;
+
+}
+.center a h1:hover{
+    background-position: center;
+
+}
+.center .p11{
+    opacity: 0.5;
+    font-family: cursive;
+
+}
+@media screen and (max-width:800px) {
+    .center h2{
+        width: 30%;
+    }
+    .center a h1{
+        font-size: 3rcap;
+    }
+    
+    .center .p11{
+        width: 90%;
+        margin: auto;
+    }
+}
+
+
+.shapedividers_com-6278{
+    overflow:hidden;
+    position:relative;
+    height: 200px;
+    }
+    .shapedividers_com-6278::before{ 
+    content:'';
+    font-family:'shape divider from ShapeDividers.com';
+    position: absolute;
+    z-index: 3;
+    pointer-events: none;
+    background-repeat: no-repeat;
+    bottom: -0.1vw;
+    left: -0.1vw;
+    right: -0.1vw;
+    top: -0.1vw; 
+    background-size: 100% 102px;
+    background-position: 50% 100%; 
+    transform: rotateY(180deg); background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 773.74 154.98"><g fill="%2360a6be"><path d="M773.74 154.98H0L386.87 77.5Z"/><path d="M773.74 154.98 386.87 0 0 154.98Z" opacity=".66"/></g></svg>'); 
+    }
+    
+    @media (min-width:2100px){
+    .shapedividers_com-6278::before{
+    background-size: 100% calc(2vw + 102px);
+    }
+    }
+
+.newsbg{
+        /* height: 300px; */
+        height: auto;
+        background: rgb(96,166,190);
+        background: linear-gradient(143deg, rgba(96,166,190,0.8298886937587535) 13%, rgba(255,255,255,1) 51%, rgba(96,166,190,0.7710651643469888) 87%);
+
+}
+     
+input{
+    height: 50px;
+    width: 60%;
+    padding-left: 2%;
+    color: black;
+    border: none;
+}
+input:focus{
+    outline: none;
+}
+input:active{
+ color: orange;
+}
+
+
+.newst{
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    padding: 6%;
+}
+.div1{
+    width: 45%;
+    /* text-align: right; */
+}
+.div2{
+    width: 40%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width:800px) {
+    .div1{
+        width: 100%;
+        margin: 3% 0%;
+    }
+    .div1 p{
+        font-size: 1.2rcap;
+        
+    }
+    
+    .div2{
+        width: 100%;
+        margin: 10% 0;
+    }
+    .div2 input{
+        width: 90%;
+        margin: 5% 0%;
+        
+    }
+    .div2 button{
+        width: 93%;
+    }
+}
+/* lower */
+
+.shapedividers_com-9020{
+    overflow:hidden;
+    position:relative;
+    height: 200px;
+    }
+    .shapedividers_com-9020::before{ 
+    content:'';
+    font-family:'shape divider from ShapeDividers.com';
+    position: absolute;
+    z-index: 3;
+    pointer-events: none;
+    background-repeat: no-repeat;
+    bottom: -0.1vw;
+    left: -0.1vw;
+    right: -0.1vw;
+    top: -0.1vw; 
+    background-size: 100% 102px;
+    background-position: 50% 0%; 
+    transform: rotateY(180deg); background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 773.74 154.98"><g fill="%2360a6be"><path d="M0 0h773.74L386.87 77.5Z"/><path d="m0 0 386.87 154.98L773.74 0Z" opacity=".66"/></g></svg>'); 
+    }
+    
+    @media (min-width:2100px){
+    .shapedividers_com-9020::before{
+    background-size: 100% calc(2vw + 102px);
+    }
+    }
+     
+
+  footer{
+    background-color: black;
+    height: auto;
+    width: 100%;
+    background: url(./image/1016892.jpg) no-repeat;
+    background-size: cover;
+    margin: -5px 0;
+    
+
+  }  
+  .fblur{
+    height: auto;
+    width: 100%;
+    backdrop-filter: blur(2px) brightness(70%) saturate(120%);
+
+   
+}
+.flexdd{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 10%;
+}
+.d1{
+
+    width: 20%;
+}
+.d1 h5{
+    margin: 10% 0;;
+}
+.d2 :where(h3,p){
+    color: white;
+}
+/* .d2 h3 p{
+    color: wh;
+} */
+.d3 :where(h3,p){
+    color: white;
+}
+.d4 :where(h3,p){
+    color: white;
+}
+#dd p i{
+    margin-right: 1%;
+    color: orange;
+    transition: transform ease-in-out 0.4s;
+
+}
+#dd{
+    width: 20%;
+}
+#dd p{
+
+    font-size: 1.2rcap;
+    line-height: 40px;
+}
+#dd p:hover i{
+    color: white;
+    transform: rotate(360deg);
+}
+.d4{
+    margin-top: 2% ;
+}
+#dd h3{
+    font-size: 1.8rcap;
+}
+
+.d4 h3{
+    color: white;
+}
+
+
+
+.leftt a{
+    margin: 0% 0.5%;
+    text-decoration: none;
+    font-family: cursive;
+  
+}
+.lastt{
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-content: flex-end;
+    margin: 0 5%;
+    flex-wrap: wrap;
+
+}
+.leftt{
+    width: 30%;
+}
+.leftt p i{
+    margin-right: 5px ;
+}
+.leftt a:hover{
+    color: orange
+}
+.leftt p{
+    color: rgba(255, 255, 255, 0.652);
+}
+.lastt .mid p:hover{
+    border: none;
+}
+.lastt .mid p a:hover{
+    color: rgba(255, 255, 255, 0.669);
+}
+
+@media screen and (max-width:800px) {
+    .flexdd #dd{
+        width: 100%;
+        margin: 10% 0;
+        text-align: center;
+    }
+    .d1 img{
+        margin: 4% 0 ;
+    }
+    .d1 h5{
+        width: 60%;
+        margin: auto;
+    }
+    
+    .lastt .leftt {
+        width: 100%;
+        margin: 2% 0;
+    }
+    .lastt .mid {
+        width: 100%;
+        /* background-color: aquamarine; */
+        margin: 2% 15%;
+
+
+    }
+    .lastt .right {
+        text-align: center;
+        margin: 2% 30%;
+
+    }
+    .lastt{
+
+        text-align: center;
+        margin: 20% 0 0
+    }
+    footer{
+        background-position: center;
+        backdrop-filter: blur(4px) brightness(50%);
     }
     
 }
