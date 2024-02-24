@@ -4,8 +4,11 @@
     padding: 0;
     color: white;
 }
+body{
+    margin: 0px;
+    padding: 0;
 
-
+}
 .shapedividers_com-9096{
     overflow:hidden;
     position:relative;
@@ -39,6 +42,8 @@
   color: white;
   height: auto;
   width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 .left img{
@@ -50,16 +55,18 @@ nav{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    padding-top: 10px;
+    /* padding-top: 10px; */
     z-index: 10;
     height: 100px;
     position: fixed;
     background-color: black;
     width: 100%;
+  
 }
 
 .mid{
     display: flex;
+    flex-wrap: wrap;
 }
 .mid p{
 
@@ -200,8 +207,16 @@ button:hover{
         margin-left: 4%;
     }
     nav .mid{
-        margin-top: 5%;
+        width: 100%;
+        text-align: center;
+
     }
+    nav .mid p{
+        margin: auto;
+    }
+   
+
+
     
     .main .img1{
         height: 350px;
@@ -227,18 +242,13 @@ button:hover{
     }
     .main .text1 h1{
         width: 100%;
-        font-size: 4rcap;
+        font-size: 3rcap;
     }
     nav{
         height: auto;
+        padding: 9px 0;
     }
-    /* .bgcolor{
-        width: 110%;
-    }
-    .shapedividers_com-9096{
-        width: 110%;
-    } */
-
+   
     
 }
 
@@ -288,9 +298,9 @@ button:hover{
 
 @media screen and (max-width:800px) {
     .in1{
-        transform: scale(1.5);
         width: 180px;
         margin-left: -10px;
+        margin-top: 5%;
     }
     #text1 .h1{
         font-size: 3rcap;
@@ -299,7 +309,7 @@ button:hover{
         width: 100%;
     }
     .in2{
-        margin-top: 5%;
+        margin-top: -60%;
         width: 90%;
     
     }
@@ -383,23 +393,23 @@ button:hover{
 }
 @media screen and (max-width:800px) {
     #pic1 , #pic2 ,#pic3{
-        height: 300px;
-        width: 350px;
+        height: 280px;
+        width: 300px;
         margin-top: 10%;
 
 
     }
     #pic1:hover .light{
-        height: 300px;
-        width: 350px;
+        height: 280px;
+        width: 300px;
     }
     #pic2:hover .light{
-        height: 300px;
-        width: 350px;
+        height: 280px;
+        width: 300px;
     }
     #pic3:hover .light{
-        height: 300px;
-        width: 350px;
+        height: 280px;
+        width: 300px;
     }
     
 }
@@ -498,11 +508,11 @@ img:hover{
         width: 30%;
     }
     .heading h1{
-        font-size: 3rcap;
+        font-size: 2.5rcap;
         margin-top: 4%;
     }
     .heading #pp{
-        font-size: 1.1rcap;
+        font-size:0.8rcap;
     }
     .item1{
         margin: 7% 0;
@@ -510,6 +520,7 @@ img:hover{
     .menubtn button{
         width: 30%;
      }
+     
     
 }
 /* section 4*/
@@ -554,6 +565,7 @@ img:hover{
 .boxx{
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 .box2{
     background: url(./image/testimonials.png) no-repeat center ;
@@ -607,9 +619,16 @@ img:hover{
     .box1{
         width: 100%;
         margin: 0;
+        padding: 0%;
     }
     .box2 {
         width: 100%;
+    }
+    .boxx{
+        width: 100%;
+        margin: 0;
+        padding: 0%;
+
     }
 
    
@@ -820,6 +839,8 @@ input:active{
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding-top: 10%;
+    width: 100%;
+    margin:0%;
 }
 .d1{
 
@@ -927,7 +948,7 @@ input:active{
     .lastt .mid {
         width: 100%;
         /* background-color: aquamarine; */
-        margin: 2% 15%;
+        margin: 2% 8%;
 
 
     }
@@ -943,6 +964,9 @@ input:active{
     }
     footer{
         background-position: center;
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
         backdrop-filter: blur(4px) brightness(50%);
     }
     
