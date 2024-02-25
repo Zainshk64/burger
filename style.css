@@ -4,11 +4,7 @@
     padding: 0;
     color: white;
 }
-body{
-    margin: 0px;
-    padding: 0;
 
-}
 .shapedividers_com-9096{
     overflow:hidden;
     position:relative;
@@ -61,12 +57,14 @@ nav{
     position: fixed;
     background-color: black;
     width: 100%;
+
   
 }
 
 .mid{
     display: flex;
     flex-wrap: wrap;
+
 }
 .mid p{
 
@@ -130,6 +128,9 @@ nav{
     align-content: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    width: 100%;
+    /* background-color: antiquewhite; */
+
 }
 h2{
 
@@ -195,7 +196,7 @@ button:hover{
     transform: scale(1.4);
 }
 
-@media screen and (max-width:800px) {
+@media  screen and (max-width:800px) {
     .bgcolor{
         height: auto;
         width: 100%;
@@ -542,6 +543,7 @@ img:hover{
 }
 .bxtext{
     padding: 10%;
+    /* background-color: antiquewhite; */
     
 }
 .box1 p i{
@@ -628,8 +630,7 @@ img:hover{
     }
     .box1{
         width: 100%;
-        margin: 0;
-        padding: 0%;
+        
     }
     .box2 {
         width: 100%;
@@ -693,15 +694,18 @@ img:hover{
 }
 @media screen and (max-width:800px) {
     .center h2{
-        width: 30%;
+        width: 35%;
     }
     .center a h1{
-        font-size: 3rcap;
+        font-size: 2.3rcap;
     }
     
     .center .p11{
         width: 90%;
         margin: auto;
+    }
+    .center{
+        width: 100%;
     }
 }
 
@@ -798,6 +802,10 @@ input:active{
     }
     .div2 button{
         width: 93%;
+    }
+    .newsbg{
+        width: 100%;
+
     }
 }
 /* lower */
@@ -962,9 +970,13 @@ input:active{
     .lastt .mid {
         width: 100%;
         /* background-color: aquamarine; */
-        margin: 2% 10%;
+        margin: 2% 5%;
 
 
+    }
+    .lastt .mid p{
+        text-align: center;
+        margin: auto;
     }
     .lastt .right {
         text-align: center;
@@ -974,7 +986,9 @@ input:active{
     .lastt{
 
         text-align: center;
-        margin: 20% 0 0
+        margin: 20% 0 0;
+        /* background-color: aqua; */
+        width: 100%;
     }
     footer{
         background-position: center;
